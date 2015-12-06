@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45FB1671C1178CA00336154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C45FB1661C1178CA00336154 /* main.m */; };
+		C45FB16A1C1178CA00336154 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45FB1691C1178CA00336154 /* AppDelegate.m */; };
+		C45FB16D1C1178CA00336154 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45FB16C1C1178CA00336154 /* MainViewController.m */; };
+		C45FB1701C1178CA00336154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45FB16E1C1178CA00336154 /* Main.storyboard */; };
+		C45FB1721C1178CA00336154 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45FB1711C1178CA00336154 /* Assets.xcassets */; };
+		C45FB1751C1178CA00336154 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45FB1731C1178CA00336154 /* LaunchScreen.storyboard */; };
+		C45FB1881C117E2D00336154 /* RWTBitlyHistoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = C45FB1821C117E2D00336154 /* RWTBitlyHistoryService.m */; };
+		C45FB1891C117E2D00336154 /* RWTBitlyService.m in Sources */ = {isa = PBXBuildFile; fileRef = C45FB1851C117E2D00336154 /* RWTBitlyService.m */; };
+		C45FB18A1C117E2D00336154 /* RWTBitlyShortenedUrlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C45FB1871C117E2D00336154 /* RWTBitlyShortenedUrlModel.m */; };
+		C492F9A01C129120005D25AF /* ActionRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C492F99F1C129120005D25AF /* ActionRequestHandler.m */; };
+		C492F9A21C129120005D25AF /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = C492F9A11C129120005D25AF /* Action.js */; };
+		C492F9A61C129120005D25AF /* JMQuickBit Action.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C492F99C1C129120005D25AF /* JMQuickBit Action.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C492F9AD1C129253005D25AF /* RWTBitlyHistoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = C45FB1821C117E2D00336154 /* RWTBitlyHistoryService.m */; };
+		C492F9B01C129253005D25AF /* RWTBitlyService.m in Sources */ = {isa = PBXBuildFile; fileRef = C45FB1851C117E2D00336154 /* RWTBitlyService.m */; };
+		C492F9B21C129253005D25AF /* RWTBitlyShortenedUrlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C45FB1871C117E2D00336154 /* RWTBitlyShortenedUrlModel.m */; };
+		C4B94C851C127E1300B13443 /* JMHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B94C841C127E1300B13443 /* JMHistoryViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C492F9A41C129120005D25AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45FB15A1C1178CA00336154 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C492F99B1C129120005D25AF;
+			remoteInfo = "JMQuickBit Action";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C492F9AA1C129120005D25AF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C492F9A61C129120005D25AF /* JMQuickBit Action.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C45FB1621C1178CA00336154 /* JMQuickBit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMQuickBit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45FB1661C1178CA00336154 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C45FB1681C1178CA00336154 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C45FB1691C1178CA00336154 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C45FB16B1C1178CA00336154 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C45FB16C1C1178CA00336154 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C45FB16F1C1178CA00336154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C45FB1711C1178CA00336154 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45FB1741C1178CA00336154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C45FB1761C1178CA00336154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45FB17C1C1178D500336154 /* JMQuickBit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = JMQuickBit.entitlements; sourceTree = "<group>"; };
+		C45FB1811C117E2D00336154 /* RWTBitlyHistoryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitlyHistoryService.h; sourceTree = "<group>"; };
+		C45FB1821C117E2D00336154 /* RWTBitlyHistoryService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTBitlyHistoryService.m; sourceTree = "<group>"; };
+		C45FB1831C117E2D00336154 /* RWTBitlyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitlyKit.h; sourceTree = "<group>"; };
+		C45FB1841C117E2D00336154 /* RWTBitlyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitlyService.h; sourceTree = "<group>"; };
+		C45FB1851C117E2D00336154 /* RWTBitlyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTBitlyService.m; sourceTree = "<group>"; };
+		C45FB1861C117E2D00336154 /* RWTBitlyShortenedUrlModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTBitlyShortenedUrlModel.h; sourceTree = "<group>"; };
+		C45FB1871C117E2D00336154 /* RWTBitlyShortenedUrlModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTBitlyShortenedUrlModel.m; sourceTree = "<group>"; };
+		C492F99C1C129120005D25AF /* JMQuickBit Action.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JMQuickBit Action.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C492F99E1C129120005D25AF /* ActionRequestHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionRequestHandler.h; sourceTree = "<group>"; };
+		C492F99F1C129120005D25AF /* ActionRequestHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionRequestHandler.m; sourceTree = "<group>"; };
+		C492F9A11C129120005D25AF /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		C492F9A31C129120005D25AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C492F9AB1C129164005D25AF /* JMQuickBit Action.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "JMQuickBit Action.entitlements"; sourceTree = "<group>"; };
+		C4B94C831C127E1300B13443 /* JMHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMHistoryViewController.h; sourceTree = "<group>"; };
+		C4B94C841C127E1300B13443 /* JMHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMHistoryViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45FB15F1C1178CA00336154 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C492F9991C129120005D25AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45FB1591C1178CA00336154 = {
+			isa = PBXGroup;
+			children = (
+				C45FB1801C117E1900336154 /* Framework */,
+				C45FB1641C1178CA00336154 /* JMQuickBit */,
+				C492F99D1C129120005D25AF /* JMQuickBit Action */,
+				C45FB1631C1178CA00336154 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45FB1631C1178CA00336154 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45FB1621C1178CA00336154 /* JMQuickBit.app */,
+				C492F99C1C129120005D25AF /* JMQuickBit Action.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45FB1641C1178CA00336154 /* JMQuickBit */ = {
+			isa = PBXGroup;
+			children = (
+				C45FB17C1C1178D500336154 /* JMQuickBit.entitlements */,
+				C45FB1681C1178CA00336154 /* AppDelegate.h */,
+				C45FB1691C1178CA00336154 /* AppDelegate.m */,
+				C45FB16B1C1178CA00336154 /* MainViewController.h */,
+				C45FB16C1C1178CA00336154 /* MainViewController.m */,
+				C4B94C831C127E1300B13443 /* JMHistoryViewController.h */,
+				C4B94C841C127E1300B13443 /* JMHistoryViewController.m */,
+				C45FB16E1C1178CA00336154 /* Main.storyboard */,
+				C45FB1711C1178CA00336154 /* Assets.xcassets */,
+				C45FB1731C1178CA00336154 /* LaunchScreen.storyboard */,
+				C45FB1761C1178CA00336154 /* Info.plist */,
+				C45FB1651C1178CA00336154 /* Supporting Files */,
+			);
+			path = JMQuickBit;
+			sourceTree = "<group>";
+		};
+		C45FB1651C1178CA00336154 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C45FB1661C1178CA00336154 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C45FB1801C117E1900336154 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				C45FB1811C117E2D00336154 /* RWTBitlyHistoryService.h */,
+				C45FB1821C117E2D00336154 /* RWTBitlyHistoryService.m */,
+				C45FB1831C117E2D00336154 /* RWTBitlyKit.h */,
+				C45FB1841C117E2D00336154 /* RWTBitlyService.h */,
+				C45FB1851C117E2D00336154 /* RWTBitlyService.m */,
+				C45FB1861C117E2D00336154 /* RWTBitlyShortenedUrlModel.h */,
+				C45FB1871C117E2D00336154 /* RWTBitlyShortenedUrlModel.m */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		C492F99D1C129120005D25AF /* JMQuickBit Action */ = {
+			isa = PBXGroup;
+			children = (
+				C492F9AB1C129164005D25AF /* JMQuickBit Action.entitlements */,
+				C492F99E1C129120005D25AF /* ActionRequestHandler.h */,
+				C492F99F1C129120005D25AF /* ActionRequestHandler.m */,
+				C492F9A11C129120005D25AF /* Action.js */,
+				C492F9A31C129120005D25AF /* Info.plist */,
+			);
+			path = "JMQuickBit Action";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45FB1611C1178CA00336154 /* JMQuickBit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45FB1791C1178CA00336154 /* Build configuration list for PBXNativeTarget "JMQuickBit" */;
+			buildPhases = (
+				C45FB15E1C1178CA00336154 /* Sources */,
+				C45FB15F1C1178CA00336154 /* Frameworks */,
+				C45FB1601C1178CA00336154 /* Resources */,
+				C492F9AA1C129120005D25AF /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C492F9A51C129120005D25AF /* PBXTargetDependency */,
+			);
+			name = JMQuickBit;
+			productName = JMQuickBit;
+			productReference = C45FB1621C1178CA00336154 /* JMQuickBit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C492F99B1C129120005D25AF /* JMQuickBit Action */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C492F9A71C129120005D25AF /* Build configuration list for PBXNativeTarget "JMQuickBit Action" */;
+			buildPhases = (
+				C492F9981C129120005D25AF /* Sources */,
+				C492F9991C129120005D25AF /* Frameworks */,
+				C492F99A1C129120005D25AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JMQuickBit Action";
+			productName = "JMQuickBit Action";
+			productReference = C492F99C1C129120005D25AF /* JMQuickBit Action.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45FB15A1C1178CA00336154 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = JackMa;
+				TargetAttributes = {
+					C45FB1611C1178CA00336154 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2658KK4JZ7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					C492F99B1C129120005D25AF = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 2658KK4JZ7;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C45FB15D1C1178CA00336154 /* Build configuration list for PBXProject "JMQuickBit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45FB1591C1178CA00336154;
+			productRefGroup = C45FB1631C1178CA00336154 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45FB1611C1178CA00336154 /* JMQuickBit */,
+				C492F99B1C129120005D25AF /* JMQuickBit Action */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45FB1601C1178CA00336154 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45FB1751C1178CA00336154 /* LaunchScreen.storyboard in Resources */,
+				C45FB1721C1178CA00336154 /* Assets.xcassets in Resources */,
+				C45FB1701C1178CA00336154 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C492F99A1C129120005D25AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C492F9A21C129120005D25AF /* Action.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45FB15E1C1178CA00336154 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45FB16D1C1178CA00336154 /* MainViewController.m in Sources */,
+				C45FB1891C117E2D00336154 /* RWTBitlyService.m in Sources */,
+				C4B94C851C127E1300B13443 /* JMHistoryViewController.m in Sources */,
+				C45FB16A1C1178CA00336154 /* AppDelegate.m in Sources */,
+				C45FB1881C117E2D00336154 /* RWTBitlyHistoryService.m in Sources */,
+				C45FB18A1C117E2D00336154 /* RWTBitlyShortenedUrlModel.m in Sources */,
+				C45FB1671C1178CA00336154 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C492F9981C129120005D25AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C492F9AD1C129253005D25AF /* RWTBitlyHistoryService.m in Sources */,
+				C492F9B01C129253005D25AF /* RWTBitlyService.m in Sources */,
+				C492F9B21C129253005D25AF /* RWTBitlyShortenedUrlModel.m in Sources */,
+				C492F9A01C129120005D25AF /* ActionRequestHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C492F9A51C129120005D25AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C492F99B1C129120005D25AF /* JMQuickBit Action */;
+			targetProxy = C492F9A41C129120005D25AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C45FB16E1C1178CA00336154 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45FB16F1C1178CA00336154 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C45FB1731C1178CA00336154 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C45FB1741C1178CA00336154 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C45FB1771C1178CA00336154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C45FB1781C1178CA00336154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45FB17A1C1178CA00336154 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JMQuickBit/JMQuickBit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JMQuickBit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qq100858433.JMQuickBit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C45FB17B1C1178CA00336154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = JMQuickBit/JMQuickBit.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = JMQuickBit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = qq100858433.JMQuickBit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		C492F9A81C129120005D25AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "JMQuickBit Action/JMQuickBit Action.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "JMQuickBit Action/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qq100858433.JMQuickBit.JMQuickBit-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C492F9A91C129120005D25AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "JMQuickBit Action/JMQuickBit Action.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "JMQuickBit Action/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "qq100858433.JMQuickBit.JMQuickBit-Action";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45FB15D1C1178CA00336154 /* Build configuration list for PBXProject "JMQuickBit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45FB1771C1178CA00336154 /* Debug */,
+				C45FB1781C1178CA00336154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45FB1791C1178CA00336154 /* Build configuration list for PBXNativeTarget "JMQuickBit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45FB17A1C1178CA00336154 /* Debug */,
+				C45FB17B1C1178CA00336154 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C492F9A71C129120005D25AF /* Build configuration list for PBXNativeTarget "JMQuickBit Action" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C492F9A81C129120005D25AF /* Debug */,
+				C492F9A91C129120005D25AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45FB15A1C1178CA00336154 /* Project object */;
+}
